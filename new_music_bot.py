@@ -13,7 +13,7 @@ import database_mgr
 app = Flask(__name__)
 
 app.config['SESSION_COOKIE_NAME']= 'Spotify Cookie'
-app.secret_key = 'mevittsHarleyEvvvy'
+app.secret_key = '**********'
 
 TOKEN_INFO = 'token_info'
 
